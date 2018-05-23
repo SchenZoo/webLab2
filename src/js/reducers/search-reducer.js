@@ -3,7 +3,7 @@ import { MOVIES_SEARCH_FETCH_OK,MOVIES_SEARCH_FETCH_BAD, MOVIES_FETCH,WANTED_MOV
 const searchReducer = (state = null, action) => {
   switch (action.type) {
     case MOVIES_SEARCH_FETCH_OK:
-        return [...action.payload.map(el=>{return{id: el.id, Poster: el.Poster, Title: el.Title}})];
+        return [...action.payload.map(el=>{return{imdbID: el.imdbID, Poster: el.Poster, Title: el.Title}})];
     case MOVIES_SEARCH_FETCH_BAD:
     case MOVIES_FETCH:
     case WANTED_MOVIES:

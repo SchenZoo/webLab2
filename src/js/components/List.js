@@ -54,17 +54,18 @@ class MoviesListComponent extends Component {
 
                     {this.props.movies && this.props.movies.map(x=>{ 
                       return (
-                        <Media key={x.id}>
+                        <Media key={x.imdbID}>
                             <Media.Left>
-                                <Link to={ { pathname:`/movie/${x.id}` } } className="d-flex align-self-center">
+                                <Link to={ { pathname:`/movie/${x.imdbID}` } } className="d-flex align-self-center">
                                     <img className="media-object" src={x.Poster} alt={x.Title}/>
                                 </Link>
                             </Media.Left>
                             <Media.Body>
                                  <Media.Heading componentClass='h2'>{x.Title}</Media.Heading>
-                                 <p>Actors: {x.Actors}</p>
-                                <p>Genre: {x.Genre}</p>
-                                <p>Rating: {x.imdbRating}</p>
+                                 <p>Year: {x.Year}</p>
+                                 {/* <p>Actors: {x.Actors}</p>
+                                <p>Genre: {x.Genre.map(el=>{return el+' '})}</p>
+                                <p>Rating: {x.imdbRating}</p> */}
                             </Media.Body>
                         </Media>
                       )})}

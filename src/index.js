@@ -10,7 +10,8 @@ import {
    watcherMoviesUploadSaga,
    watcherSearchMoviesUploadSaga,
    watcherWantedMoviesUploadSaga,
-   watcherImagesUploadSaga
+   watcherImagesUploadSaga,
+   watcherVideoUploadSaga
    } from './js/saga/sagas';
 
 import { createStore,applyMiddleware } from "redux";
@@ -28,6 +29,7 @@ sagaMiddleware.run(watcherMoviesUploadSaga);
 sagaMiddleware.run(watcherSearchMoviesUploadSaga);
 sagaMiddleware.run(watcherWantedMoviesUploadSaga);
 sagaMiddleware.run(watcherImagesUploadSaga);
+sagaMiddleware.run(watcherVideoUploadSaga);
 
 render(
   <Provider store={store}>

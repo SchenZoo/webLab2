@@ -1,7 +1,7 @@
 
 import { takeEvery, call, put} from "redux-saga/effects";
 import {
-LOGIN,REGISTER,MOVIES_FETCH, MOVIES_SEARCH, WANTED_MOVIES, IMAGES_FETCH
+LOGIN,REGISTER,MOVIES_FETCH, MOVIES_SEARCH, WANTED_MOVIES, IMAGES_FETCH, VIDEO_FETCH
  } from '../constants/action-types';
 import{
     loginFailed,
@@ -16,12 +16,15 @@ import{
     wantedMoviesFailed,
     imagesFetchSuccessfully,
     imagesFetchFailed,
+    videoFetch,
+    videoFetchSuccessfully
 } from '../actions/index';
  import { 
     fetchUserByUsername,
     tryToRegister,
     fetchMovies,
-    fetchMovieById
+    fetchMovieById,
+    fetchYT
 } from '../../api/index';
 
 // LOGIN
@@ -64,7 +67,25 @@ export function* watcherMoviesUploadSaga() {
 function* moviesFetchSaga(action)
 {
     const response = yield call (fetchMovieById,action.payload);
-    response ? yield put(moviesFetchSuccessfully(response)) : yield put(moviesFetchFailed());
+    if(response){ 
+        yield put(moviesFetchSuccessfully(response));
+        yield put(videoFetch(response.Title));
+    } else {
+         yield put(moviesFetchFailed());
+    }
+}
+
+//FETCH YT VIDEO
+export function* watcherVideoUploadSaga() {
+    yield takeEvery(VIDEO_FETCH, videoFetchSaga);
+}
+
+function* videoFetchSaga(action)
+{
+    const response = yield call (fetchYT,action.payload);
+    if(response) {
+    yield put(videoFetchSuccessfully(response));
+    }
 }
 
 //IMAGES FETCH(FROM MOVIE DB)

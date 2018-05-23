@@ -16,7 +16,7 @@ const App = () => (
         <Route exact path="/login" component = { Login } />
         <Route path='/home' component={ Home } />
         <Route path='/movieList' component={ MovieList }/>
-        <Route path='/movie/:id' render ={ props => <Movie {...props}/>} />
+        <Route path='/movie/:id' component={ Movie } />
             <Redirect from='**' to='/home'/>
         </Switch>  
         </Jumbotron>

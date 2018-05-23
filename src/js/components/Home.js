@@ -11,7 +11,13 @@ class HomeComponent extends Component {
     constructor(props)
     {
         super(props);
-        this.props.imagesFetch();
+        if(this.props.user && !this.props.user.msg) {
+            this.props.imagesFetch();//da ne ucita resurse svaki put kad neko pokusa da ode na stranicu a nije ulogovan
+
+        }else{
+            this.props.history.push("/login",{ change : true});
+        }
+       
     }
     render() {
         if(this.props.user && !this.props.user.msg) {
@@ -23,8 +29,8 @@ class HomeComponent extends Component {
                 {this.props.images &&  (<Carousel width={500} height={250}>
                     {this.props.images.map(x=>{
                         return(
-                        <Carousel.Item key={x.id}>
-                            <Link to={ { pathname:`/movie/${x.id}`} }>
+                        <Carousel.Item key={x.imdbID}>
+                            <Link to={ { pathname:`/movie/${x.imdbID}`} }>
                                 <img width={500} height={250} alt={x.Title} src={x.Poster} />
                             </Link>
                         </Carousel.Item>)
