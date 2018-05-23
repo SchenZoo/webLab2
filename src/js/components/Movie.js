@@ -27,7 +27,7 @@ class MovieComponent extends Component {
                 <div>
                     <Media>
                         <Media.Left>
-                                <img className="media-object" src={this.props.selectedMovie.Poster} alt={this.props.selectedMovie.Title}/>
+                                <img className="media-object" src={this.props.selectedMovie.Poster!=='N/A'?this.props.selectedMovie.Poster:'http://files.softicons.com/download/system-icons/bluegray-icons-by-kidaubis/png/256/File%20Movie%20Clip.png'} alt={this.props.selectedMovie.Title}/>
                         </Media.Left>
                         <Media.Body>
                             <Media.Heading componentClass='h2'>{this.props.selectedMovie.Website!=='N/A'? (<a href={this.props.selectedMovie.Website}>{this.props.selectedMovie.Title}</a>):(<font>{this.props.selectedMovie.Title}</font>)}</Media.Heading>

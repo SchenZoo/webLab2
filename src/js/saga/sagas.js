@@ -8,14 +8,11 @@ import{
     loginSuccessfully,
     registerFailed,
     registerSuccessfully,
-    moviesFetchFailed,
     moviesFetchSuccessfully,
     moviesSearchSuccessfully,
     moviesSearchFailed,
     wantedMoviesSuccessfully,
-    wantedMoviesFailed,
     imagesFetchSuccessfully,
-    imagesFetchFailed,
     videoFetch,
     videoFetchSuccessfully
 } from '../actions/index';
@@ -70,8 +67,6 @@ function* moviesFetchSaga(action)
     if(response){ 
         yield put(moviesFetchSuccessfully(response));
         yield put(videoFetch(response.Title));
-    } else {
-         yield put(moviesFetchFailed());
     }
 }
 
@@ -96,7 +91,8 @@ export function* watcherImagesUploadSaga() {
 function* imagesFetchSaga(action)
 {
     const response = yield call (fetchMovies);
-    response ? yield put(imagesFetchSuccessfully(response)) : yield put(imagesFetchFailed());
+    if(response) 
+    yield put(imagesFetchSuccessfully(response));
 }
 
 //MOVIES FETCH FOR SEARCH
@@ -124,6 +120,6 @@ function* moviesWantedFetchSaga(action)
 {
 
     const response = yield call (fetchMovies,action.payload);
-    
-    response && response.length>0 ? yield put(wantedMoviesSuccessfully(response)) : yield put(wantedMoviesFailed());
+    if(response && response.length>0)
+    yield put(wantedMoviesSuccessfully(response));
 }

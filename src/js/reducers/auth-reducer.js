@@ -1,7 +1,8 @@
 import { LOGIN_OK, LOGIN_BAD, LOGOUT,REGISTER_OK, REGISTER_BAD } from "../constants/action-types";
 
  let initialState=localStorage.getItem("authState");
-
+initialState=initialState.username? initialState:null;
+//const initialState={username: "SchenZo"};
 const authorizationReducer = (state = initialState, action) => {
   switch (action.type) {
     case LOGIN_OK:

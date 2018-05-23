@@ -57,7 +57,7 @@ class MoviesListComponent extends Component {
                         <Media key={x.imdbID}>
                             <Media.Left>
                                 <Link to={ { pathname:`/movie/${x.imdbID}` } } className="d-flex align-self-center">
-                                    <img className="media-object" src={x.Poster} alt={x.Title}/>
+                                    <img className="media-object" src={x.Poster!=='N/A'?x.Poster:'http://files.softicons.com/download/system-icons/bluegray-icons-by-kidaubis/png/256/File%20Movie%20Clip.png'} alt={x.Title}/>
                                 </Link>
                             </Media.Left>
                             <Media.Body>

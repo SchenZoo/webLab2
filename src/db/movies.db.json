@@ -4,256 +4,328 @@
       "username": "SenZo",
       "password": "asdlol",
       "id": 1
+    },
+    {
+      "username": "stane",
+      "password": "asdlol",
+      "id": 2
     }
   ],
-  "movies":
-    [
-        {
-            "Title":"The Hobbit: An Unexpected Journey",
-            "Genre":["Adventure", "Family", "Fantasy"],
-            "Year":"2012",
-            "imdbID":"tt0903624",
-            "Actors":"Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",
-            "Plot":"A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
-            "imdbRating":"7.9",
-            "Production":"Warner Bros.",
-            "Website":"http://www.thehobbit.com/index.html",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg",
-            "id": 1
-        },
-        {
-            "Title":"300: Rise of an Empire",
-            "Genre":["Adventure", "Action"],
-            "Year":"2014",
-            "imdbID":"tt1253863",
-            "Actors":"Sullivan Stapleton, Eva Green, Lena Headey, Hans Matheson",
-            "Plot":"Greek general Themistokles leads the charge against invading Persian forces led by mortal-turned-god Xerxes and Artemisia, vengeful commander of the Persian navy.",
-            "imdbRating":"6.2",
-            "Production":"Warner Bros. Pictures",
-            "Website":"http://www.300themovie.com/",
-            "Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTEwNTU2MjAwMDdeQTJeQWpwZ15BbWU3MDk2Njc2Njk@._V1_SX300.jpg",
-            "id": 2
-        },
-        {
-            "Title":"An Education",
-            "Genre":["Drama"],
-            "Year":"2009",
-            "imdbID":"tt1174732",
-            "Actors":"Carey Mulligan, Olivia Williams, Alfred Molina, Cara Seymour",
-            "Plot":"A coming-of-age story about a teenage girl in 1960s suburban London, and how her life changes with the arrival of a playboy nearly twice her age.",
-            "imdbRating":"7.3",
-            "Production":"Sony Classics",
-            "Website":"http://www.sonyclassics.com/aneducation/",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BMTg4NjgzOTc0MF5BMl5BanBnXkFtZTcwOTc2OTE3Mg@@._V1_SX300.jpg",
-            "id": 3
-        },
-        {
-            "Title":"An American Werewolf in London",
-            "Genre":["Comedy", "Horror"],
-            "Year":"1981",
-            "imdbID":"tt0082010",
-            "Actors":"Joe Belcher, David Naughton, Griffin Dunne, David Schofield",
-            "Plot":"Two American college students on a walking tour of Britain are attacked by a werewolf that none of the locals will admit exists.",
-            "imdbRating":"7.6",
-            "Production":"Universal Pictures",
-            "Website":"http://www.americanwerewolf.com",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BNTYzMDk3MzIyNV5BMl5BanBnXkFtZTgwOTM2OTE4MzE@._V1_SX300.jpg",
-            "id": 4
-        },
-        {
-            "Title":"An Inconvenient Truth",
-            "Genre":["Documentary"],
-            "Year":"2006",
-            "imdbID":"tt0497116",
-            "Actors":"Al Gore, Billy West",
-            "Plot":"Filmmaker Davis Guggenheim follows Al Gore on the lecture circuit, as the former presidential candidate campaigns to raise public awareness of the dangers of global warming and calls for immediate action to curb its destructive effects on the environment.",
-            "imdbRating":"7.5",
-            "Production":"Paramount Classics",
-            "Website":"http://www.climatecrisis.net/",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BOTg3NjYxMjM5OF5BMl5BanBnXkFtZTcwMzQzMDA0MQ@@._V1_SX300.jpg",
-            "id": 5
-        },
-         {  
-            "Title":"Harry Potter and the Sorcerer's Stone",
-            "Genre":["Adventure", "Family", "Fantasy"],
-            "Year":"2001",
-            "imdbID":"tt0241527",
-            "Actors":"Richard Harris, Maggie Smith, Robbie Coltrane, Saunders Triplets",
-            "Plot":"Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.",
-            "imdbRating":"7.6",
-            "Production":"Warner Bros. Pictures",
-            "Website":"http://movies.warnerbros.com/awards/harry.html",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
-            "id": 6
-         },
-         {  
-            "Title":"Harry Potter and the Order of the Phoenix",
-            "Genre":["Adventure", "Family", "Fantasy"],
-            "Year":"2007",
-            "imdbID":"tt0373889",
-            "Actors":"Daniel Radcliffe, Harry Melling, Jason Boyd, Richard Macklin",
-            "Plot":"With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
-            "imdbRating":"7.5",
-            "Production":"Warner Bros. Pictures",
-            "Website":"http://www.harrypotterorderofthephoenix.com/",
-            "Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0NTczMTUzOV5BMl5BanBnXkFtZTYwMzIxNTg3._V1_SX300.jpg",
-            "id": 7
-         },
-         {  
-            "Title":"Harry Potter and the Half-Blood Prince",
-            "Genre":["Adventure", "Family", "Fantasy"],
-            "Year":"2009",
-            "imdbID":"tt0417741",
-            "Actors":"Daniel Radcliffe, Michael Gambon, Dave Legeno, Elarica Johnson",
-            "Plot":"As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
-            "imdbRating":"7.6",
-            "Production":"Warner Bros. Pictures",
-            "Website":"http://www.harrypotter.com/",
-            "Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg",
-            "id": 8
-         },
-         {  
-            "Title":"Dirty Harry",
-            "Genre":["Action", "Crime", "Thriller"],
-            "Year":"1971",
-            "imdbID":"tt0066999",
-            "Actors":"Clint Eastwood, Harry Guardino, Reni Santoni, John Vernon",
-            "Plot":"When a mad man calling himself 'the Scorpio Killer' menaces the city, tough as nails San Francisco Police Inspector Harry Callahan is assigned to track down and ferret out the crazed psychopath.",
-            "imdbRating":"7.8",
-            "Production":"Warner Home Video",
-            "Website":"N/A",
-            "Poster":"https://images-na.ssl-images-amazon.com/images/I/51OtGGI%2BQ5L._SY463_.jpg",
-            "id": 9
-         },
-         {  
-            "Title":"The Lord of the Rings: The Fellowship of the Ring",
-            "Genre":["Adventure", "Drama", "Fantasy"],
-            "Year":"2001",
-            "imdbID":"tt0120737",
-            "Actors":"Alan Howard, Noel Appleby, Sean Astin, Sala Baker",
-            "Plot":"A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
-            "imdbRating":"8.8",
-            "Production":"New Line Cinema",
-            "Website":"http://www.lordoftherings.net/film/trilogy/thefellowship.html",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
-            "id": 10
-         },
-         {  
-            "Title":"The Lord of the Rings: The Return of the King",
-            "Genre":["Adventure", "Drama", "Fantasy"],
-            "Year":"2003",
-            "imdbID":"tt0167260",
-            "Actors":"Noel Appleby, Ali Astin, Sean Astin, David Aston",
-            "Plot":"Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
-            "imdbRating":"8.9",
-            "Production":"New Line Cinema",
-            "Website":"http://www.lordoftherings.net/",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
-            "id": 11
-         },
-         {  
-            "Title":"The Lord of the Rings: The Two Towers",
-            "Genre":["Adventure", "Drama", "Fantasy"],
-            "Year":"2002",
-            "imdbID":"tt0167261",
-            "Actors":"Bruce Allpress, Sean Astin, John Bach, Sala Baker",
-            "Plot":"While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
-            "imdbRating":"8.7",
-            "Production":"New Line Cinema",
-            "Website":"http://www.lordoftherings.net/",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BMDY0NmI4ZjctN2VhZS00YzExLTkyZGItMTJhOTU5NTg4MDU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-            "id": 12
-         },
-         {  
-            "Title":"Uncle Sam",
-            "Genre":["Comedy", "Horror"],
-            "Year":"1996",
-            "imdbID":"tt0118025",
-            "Actors":"William Smith, David 'Shark' Fralick, Christopher Ogden, Leslie Neale",
-            "Plot":"Desert Storm vet who was killed in combat rises from the grave on July Fourth, to kill the unpatriotic citizens of his hometown, after some teens burn an American flag over his burial site.",
-            "imdbRating":"4.3",
-            "Production":"Blue Underground",
-            "Website":"http://www.blue-underground.com/",
-            "Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BNGYzMzZhZmItNWE1Ny00ZDA5LWI5NTYtMTkyMGVjNWJjOTg3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-            "id": 13
-         },
-         {  
-            "Title":"Rambo",
-            "Genre":["Action", "Thriller", "War"],
-            "Year":"2008",
-            "imdbID":"tt0462499",
-            "Actors":"Sylvester Stallone, Julie Benz, Matthew Marsden, Graham McTavish",
-            "Plot":"In Thailand, John Rambo joins a group of mercenaries to venture into war-torn Burma, and rescue a group of Christian aid workers who were kidnapped by the ruthless local infantry unit.",
-            "imdbRating":"7.0",
-            "Production":"Lionsgate",
-            "Website":"http://movies.break.com/rambo/",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BMTI5Mjg1MzM4NF5BMl5BanBnXkFtZTcwNTAyNzUzMw@@._V1_SX300.jpg",
-            "id": 14
-         },
-         {  
-            "Title":"Rambo: First Blood Part II",
-            "Genre":["Action", "Adventure", "Thriller"],
-            "Year":"1985",
-            "imdbID":"tt0089880",
-            "Actors":"Sylvester Stallone, Richard Crenna, Charles Napier, Steven Berkoff",
-            "Plot":"John Rambo is released from prison by the government for a top-secret covert mission to the last place on Earth he'd want to return - the jungles of Vietnam.",
-            "imdbRating":"6.4",
-            "Production":"TriStar Pictures",
-            "Website":"N/A",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BZWFkY2I1ZDAtNmZhNS00NjVlLWJiMGQtMGQ1ZmM0ZDA5ODg5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-            "id": 15
-         },
-         {  
-            "Title":"Rambo III",
-            "Genre":["Action", "Adventure", "Thriller"],
-            "Year":"1988",
-            "imdbID":"tt0095956",
-            "Actors":"Sylvester Stallone, Richard Crenna, Marc de Jonge, Kurtwood Smith",
-            "Plot":"Rambo mounts a one man mission to rescue his friend Colonel Trautman from the clutches of the formidable invading Soviet forces in Afghanistan.",
-            "imdbRating":"5.7",
-            "Production":"Live Home Video",
-            "Website":"N/A",
-            "Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BOTIwNWJhZDItZmNmOC00M2NkLWIwNDktMTYwZWFlZDVkMmVkL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-            "id": 16
-         },
-         {  
-            "Title":"Crazy, Stupid, Love.",
-            "Genre":["Comedy", "Drama","Romance"],
-            "Year":"2011",
-            "imdbID":"tt1570728",
-            "Actors":"Steve Carell, Ryan Gosling, Julianne Moore, Emma Stone",
-            "Plot":"A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars.",
-            "imdbRating":"7.4",
-            "Production":"Warner Bros. Pictures",
-            "Website":"http://www.crazystupidlovemovie.com",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_SX300.jpg",
-            "id": 17
-         },
-         {  
-            "Title":"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
-            "Genre":["Comedy", "War"],
-            "Year":"1964",
-            "imdbID":"tt0057012",
-            "Actors":"Peter Sellers, George C. Scott, Sterling Hayden, Keenan Wynn",
-            "Plot":"An insane general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.",
-            "imdbRating":"8.5",
-            "Production":"Sony Pictures",
-            "Website":"N/A",
-            "Poster":"https://ia.media-imdb.com/images/M/MV5BNTkxYjUxNDYtZGY0My00NTc2LThiZmYtNmNmNmU0NGVkZWYwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
-            "id": 18
-         },
-         {  
-            "Title":"Love Actually",
-            "Genre":["Comedy", "Drama", "Romance"],
-            "Year":"2003",
-            "imdbID":"tt0314331",
-            "Actors":"Bill Nighy, Gregor Fisher, Rory MacGregor, Colin Firth",
-            "Plot":"Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England.",
-            "imdbRating":"7.6",
-            "Production":"Universal Pictures",
-            "Website":"http://www.loveactually.com/",
-            "Poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_SX300.jpg",
-            "id": 19
-         }
-    ]
+  "movies": [
+    {
+      "Title": "The Hobbit: An Unexpected Journey",
+      "Genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "Year": "2012",
+      "imdbID": "tt0903624",
+      "Actors": "Ian McKellen, Martin Freeman, Richard Armitage, Ken Stott",
+      "Plot": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug.",
+      "imdbRating": "7.9",
+      "Production": "Warner Bros.",
+      "Website": "http://www.thehobbit.com/index.html",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_SX300.jpg",
+      "id": 1
+    },
+    {
+      "Title": "300: Rise of an Empire",
+      "Genre": [
+        "Adventure",
+        "Action"
+      ],
+      "Year": "2014",
+      "imdbID": "tt1253863",
+      "Actors": "Sullivan Stapleton, Eva Green, Lena Headey, Hans Matheson",
+      "Plot": "Greek general Themistokles leads the charge against invading Persian forces led by mortal-turned-god Xerxes and Artemisia, vengeful commander of the Persian navy.",
+      "imdbRating": "6.2",
+      "Production": "Warner Bros. Pictures",
+      "Website": "http://www.300themovie.com/",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTEwNTU2MjAwMDdeQTJeQWpwZ15BbWU3MDk2Njc2Njk@._V1_SX300.jpg",
+      "id": 2
+    },
+    {
+      "Title": "An Education",
+      "Genre": [
+        "Drama"
+      ],
+      "Year": "2009",
+      "imdbID": "tt1174732",
+      "Actors": "Carey Mulligan, Olivia Williams, Alfred Molina, Cara Seymour",
+      "Plot": "A coming-of-age story about a teenage girl in 1960s suburban London, and how her life changes with the arrival of a playboy nearly twice her age.",
+      "imdbRating": "7.3",
+      "Production": "Sony Classics",
+      "Website": "http://www.sonyclassics.com/aneducation/",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BMTg4NjgzOTc0MF5BMl5BanBnXkFtZTcwOTc2OTE3Mg@@._V1_SX300.jpg",
+      "id": 3
+    },
+    {
+      "Title": "An American Werewolf in London",
+      "Genre": [
+        "Comedy",
+        "Horror"
+      ],
+      "Year": "1981",
+      "imdbID": "tt0082010",
+      "Actors": "Joe Belcher, David Naughton, Griffin Dunne, David Schofield",
+      "Plot": "Two American college students on a walking tour of Britain are attacked by a werewolf that none of the locals will admit exists.",
+      "imdbRating": "7.6",
+      "Production": "Universal Pictures",
+      "Website": "http://www.americanwerewolf.com",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BNTYzMDk3MzIyNV5BMl5BanBnXkFtZTgwOTM2OTE4MzE@._V1_SX300.jpg",
+      "id": 4
+    },
+    {
+      "Title": "An Inconvenient Truth",
+      "Genre": [
+        "Documentary"
+      ],
+      "Year": "2006",
+      "imdbID": "tt0497116",
+      "Actors": "Al Gore, Billy West",
+      "Plot": "Filmmaker Davis Guggenheim follows Al Gore on the lecture circuit, as the former presidential candidate campaigns to raise public awareness of the dangers of global warming and calls for immediate action to curb its destructive effects on the environment.",
+      "imdbRating": "7.5",
+      "Production": "Paramount Classics",
+      "Website": "http://www.climatecrisis.net/",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BOTg3NjYxMjM5OF5BMl5BanBnXkFtZTcwMzQzMDA0MQ@@._V1_SX300.jpg",
+      "id": 5
+    },
+    {
+      "Title": "Harry Potter and the Sorcerer's Stone",
+      "Genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "Year": "2001",
+      "imdbID": "tt0241527",
+      "Actors": "Richard Harris, Maggie Smith, Robbie Coltrane, Saunders Triplets",
+      "Plot": "Rescued from the outrageous neglect of his aunt and uncle, a young boy with a great destiny proves his worth while attending Hogwarts School of Witchcraft and Wizardry.",
+      "imdbRating": "7.6",
+      "Production": "Warner Bros. Pictures",
+      "Website": "http://movies.warnerbros.com/awards/harry.html",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BNjQ3NWNlNmQtMTE5ZS00MDdmLTlkZjUtZTBlM2UxMGFiMTU3XkEyXkFqcGdeQXVyNjUwNzk3NDc@._V1_SX300.jpg",
+      "id": 6
+    },
+    {
+      "Title": "Harry Potter and the Order of the Phoenix",
+      "Genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "Year": "2007",
+      "imdbID": "tt0373889",
+      "Actors": "Daniel Radcliffe, Harry Melling, Jason Boyd, Richard Macklin",
+      "Plot": "With their warning about Lord Voldemort's return scoffed at, Harry and Dumbledore are targeted by the Wizard authorities as an authoritarian bureaucrat slowly seizes power at Hogwarts.",
+      "imdbRating": "7.5",
+      "Production": "Warner Bros. Pictures",
+      "Website": "http://www.harrypotterorderofthephoenix.com/",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTM0NTczMTUzOV5BMl5BanBnXkFtZTYwMzIxNTg3._V1_SX300.jpg",
+      "id": 7
+    },
+    {
+      "Title": "Harry Potter and the Half-Blood Prince",
+      "Genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "Year": "2009",
+      "imdbID": "tt0417741",
+      "Actors": "Daniel Radcliffe, Michael Gambon, Dave Legeno, Elarica Johnson",
+      "Plot": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as \"the property of the Half-Blood Prince\" and begins to learn more about Lord Voldemort's dark past.",
+      "imdbRating": "7.6",
+      "Production": "Warner Bros. Pictures",
+      "Website": "http://www.harrypotter.com/",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg",
+      "id": 8
+    },
+    {
+      "Title": "Dirty Harry",
+      "Genre": [
+        "Action",
+        "Crime",
+        "Thriller"
+      ],
+      "Year": "1971",
+      "imdbID": "tt0066999",
+      "Actors": "Clint Eastwood, Harry Guardino, Reni Santoni, John Vernon",
+      "Plot": "When a mad man calling himself 'the Scorpio Killer' menaces the city, tough as nails San Francisco Police Inspector Harry Callahan is assigned to track down and ferret out the crazed psychopath.",
+      "imdbRating": "7.8",
+      "Production": "Warner Home Video",
+      "Website": "N/A",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/I/51OtGGI%2BQ5L._SY463_.jpg",
+      "id": 9
+    },
+    {
+      "Title": "The Lord of the Rings: The Fellowship of the Ring",
+      "Genre": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "Year": "2001",
+      "imdbID": "tt0120737",
+      "Actors": "Alan Howard, Noel Appleby, Sean Astin, Sala Baker",
+      "Plot": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+      "imdbRating": "8.8",
+      "Production": "New Line Cinema",
+      "Website": "http://www.lordoftherings.net/film/trilogy/thefellowship.html",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
+      "id": 10
+    },
+    {
+      "Title": "The Lord of the Rings: The Return of the King",
+      "Genre": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "Year": "2003",
+      "imdbID": "tt0167260",
+      "Actors": "Noel Appleby, Ali Astin, Sean Astin, David Aston",
+      "Plot": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "imdbRating": "8.9",
+      "Production": "New Line Cinema",
+      "Website": "http://www.lordoftherings.net/",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BYWY1ZWQ5YjMtMDE0MS00NWIzLWE1M2YtODYzYTk2OTNlYWZmXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+      "id": 11
+    },
+    {
+      "Title": "The Lord of the Rings: The Two Towers",
+      "Genre": [
+        "Adventure",
+        "Drama",
+        "Fantasy"
+      ],
+      "Year": "2002",
+      "imdbID": "tt0167261",
+      "Actors": "Bruce Allpress, Sean Astin, John Bach, Sala Baker",
+      "Plot": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
+      "imdbRating": "8.7",
+      "Production": "New Line Cinema",
+      "Website": "http://www.lordoftherings.net/",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BMDY0NmI4ZjctN2VhZS00YzExLTkyZGItMTJhOTU5NTg4MDU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+      "id": 12
+    },
+    {
+      "Title": "Uncle Sam",
+      "Genre": [
+        "Comedy",
+        "Horror"
+      ],
+      "Year": "1996",
+      "imdbID": "tt0118025",
+      "Actors": "William Smith, David 'Shark' Fralick, Christopher Ogden, Leslie Neale",
+      "Plot": "Desert Storm vet who was killed in combat rises from the grave on July Fourth, to kill the unpatriotic citizens of his hometown, after some teens burn an American flag over his burial site.",
+      "imdbRating": "4.3",
+      "Production": "Blue Underground",
+      "Website": "http://www.blue-underground.com/",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BNGYzMzZhZmItNWE1Ny00ZDA5LWI5NTYtMTkyMGVjNWJjOTg3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "id": 13
+    },
+    {
+      "Title": "Rambo",
+      "Genre": [
+        "Action",
+        "Thriller",
+        "War"
+      ],
+      "Year": "2008",
+      "imdbID": "tt0462499",
+      "Actors": "Sylvester Stallone, Julie Benz, Matthew Marsden, Graham McTavish",
+      "Plot": "In Thailand, John Rambo joins a group of mercenaries to venture into war-torn Burma, and rescue a group of Christian aid workers who were kidnapped by the ruthless local infantry unit.",
+      "imdbRating": "7.0",
+      "Production": "Lionsgate",
+      "Website": "http://movies.break.com/rambo/",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BMTI5Mjg1MzM4NF5BMl5BanBnXkFtZTcwNTAyNzUzMw@@._V1_SX300.jpg",
+      "id": 14
+    },
+    {
+      "Title": "Rambo: First Blood Part II",
+      "Genre": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "Year": "1985",
+      "imdbID": "tt0089880",
+      "Actors": "Sylvester Stallone, Richard Crenna, Charles Napier, Steven Berkoff",
+      "Plot": "John Rambo is released from prison by the government for a top-secret covert mission to the last place on Earth he'd want to return - the jungles of Vietnam.",
+      "imdbRating": "6.4",
+      "Production": "TriStar Pictures",
+      "Website": "N/A",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BZWFkY2I1ZDAtNmZhNS00NjVlLWJiMGQtMGQ1ZmM0ZDA5ODg5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+      "id": 15
+    },
+    {
+      "Title": "Rambo III",
+      "Genre": [
+        "Action",
+        "Adventure",
+        "Thriller"
+      ],
+      "Year": "1988",
+      "imdbID": "tt0095956",
+      "Actors": "Sylvester Stallone, Richard Crenna, Marc de Jonge, Kurtwood Smith",
+      "Plot": "Rambo mounts a one man mission to rescue his friend Colonel Trautman from the clutches of the formidable invading Soviet forces in Afghanistan.",
+      "imdbRating": "5.7",
+      "Production": "Live Home Video",
+      "Website": "N/A",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BOTIwNWJhZDItZmNmOC00M2NkLWIwNDktMTYwZWFlZDVkMmVkL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+      "id": 16
+    },
+    {
+      "Title": "Crazy, Stupid, Love.",
+      "Genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "Year": "2011",
+      "imdbID": "tt1570728",
+      "Actors": "Steve Carell, Ryan Gosling, Julianne Moore, Emma Stone",
+      "Plot": "A middle-aged husband's life changes dramatically when his wife asks him for a divorce. He seeks to rediscover his manhood with the help of a newfound friend, Jacob, learning to pick up girls at bars.",
+      "imdbRating": "7.4",
+      "Production": "Warner Bros. Pictures",
+      "Website": "http://www.crazystupidlovemovie.com",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_SX300.jpg",
+      "id": 17
+    },
+    {
+      "Title": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",
+      "Genre": [
+        "Comedy",
+        "War"
+      ],
+      "Year": "1964",
+      "imdbID": "tt0057012",
+      "Actors": "Peter Sellers, George C. Scott, Sterling Hayden, Keenan Wynn",
+      "Plot": "An insane general triggers a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.",
+      "imdbRating": "8.5",
+      "Production": "Sony Pictures",
+      "Website": "N/A",
+      "Poster": "https://ia.media-imdb.com/images/M/MV5BNTkxYjUxNDYtZGY0My00NTc2LThiZmYtNmNmNmU0NGVkZWYwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+      "id": 18
+    },
+    {
+      "Title": "Love Actually",
+      "Genre": [
+        "Comedy",
+        "Drama",
+        "Romance"
+      ],
+      "Year": "2003",
+      "imdbID": "tt0314331",
+      "Actors": "Bill Nighy, Gregor Fisher, Rory MacGregor, Colin Firth",
+      "Plot": "Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England.",
+      "imdbRating": "7.6",
+      "Production": "Universal Pictures",
+      "Website": "http://www.loveactually.com/",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTY4NjQ5NDc0Nl5BMl5BanBnXkFtZTYwNjk5NDM3._V1_SX300.jpg",
+      "id": 19
+    }
+  ]
 }
