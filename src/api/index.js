@@ -50,6 +50,7 @@ export const fetchMovieById = async id =>
 }
 const YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search';
 const API_KEY = "AIzaSyBr5DKbTtGchV6Cw3oq7x-3TNdcVIPQDc0";
+
 export const fetchYT = async searchItem =>
 {
     try{
@@ -70,7 +71,8 @@ export const fetchMovies = async movie =>
         // const data = await response.json();
         // movie=movie? movie.toUpperCase():null;
         // return movie?  data.filter(x=>x.Title.toUpperCase().includes(movie)):data;
-        let searchFor=movie? movie:'an&year=2018';
+
+        let searchFor=movie? `*${movie}*`:'*an*&year=2018';
         const response=await fetch(`${OMdbURL}&s=${searchFor}`);
         const data=await response.json();
         return data.Search;

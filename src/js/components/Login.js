@@ -7,8 +7,8 @@ import { Form,FormControl,FormGroup,ControlLabel,Button} from 'react-bootstrap';
 import { Redirect } from 'react-router-dom';
 
 class ConnectedForm extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
       username: '',
       password: ''
@@ -35,14 +35,16 @@ class ConnectedForm extends Component {
 
 
   handleChange(event) {
-    this.setState({ [event.target.id]: event.target.value });
+
+    this.setState( { [event.target.id]: event.target.value }  );
   }
+
   render() {
     if(this.props.user && !this.props.user.msg)
     return <Redirect to= "/home" push/>;
     return (
       <div className="well" style={{maxWidth: 500, margin: '0 auto 10px' }}>
-      <Form >
+      <Form>
         <FormGroup>
             <ControlLabel>Username</ControlLabel>
             <FormControl
